@@ -1,0 +1,54 @@
+/*   Search Portion    */
+.search_container>div{
+    padding-top:3rem;
+    width:65%;
+    margin:auto;
+}
+.search_container>div>input,.search_container>div>button{
+    height:5vh;
+    color:rgb(102, 102, 102);
+}
+.search_container>div>input{
+    border:2px solid rgb(182, 182, 182);
+    width:84%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-right: 1.2rem;
+}
+.search_container>div>button{
+    background: transparent;
+    border:4px solid rgb(163, 163, 163);
+    width:8vw;
+    font-size: 1.25rem;   
+    cursor: pointer;
+}
+.search_container>h1{
+    text-align: center;
+    padding-top:10px;
+    color:red;
+}
+
+/*   Post Portion    */
+.posts{
+    margin:auto;
+    width:80%;
+    border-radius: 10px;
+    border:.5px solid rgb(197, 197, 197);
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.posts>h1,.posts_date,.posts_description{color:rgb(102, 102, 102);}
+.posts>h1{
+    font-size: 1.5rem;
+    margin:1rem 0rem .01rem .8rem;
+}
+.posts_date{
+    font-size:.85rem;
+    margin:0rem .8rem 0rem .8rem;
+}
+.posts_description{
+    font-size:1.10rem;
+    font-weight: 400;
+    margin:1rem .8rem 1rem .8rem;
+}
