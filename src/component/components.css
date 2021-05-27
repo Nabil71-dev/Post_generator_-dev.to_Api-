@@ -41,7 +41,7 @@
 .posts>h1,.posts_date,.posts_description{color:rgb(102, 102, 102);}
 .posts>h1{
     font-size: 1.5rem;
-    margin:1rem 0rem .01rem .8rem;
+    margin:1rem .8rem .01rem .8rem;
 }
 .posts_date{
     font-size:.85rem;
